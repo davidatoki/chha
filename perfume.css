@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F3EAE3;
+}
+.perfume{
+    colors: #FFFFFF;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #FFFFFF;
+    width: 330px;
+    height: 460px;
+    /* padding: 25px; */
+    align-items: center;
+}
+.img img{
+    width: 330px;
+    height: 460px;
+    opacity: 0.8;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+h3{
+    opacity: 0.4;
+    font-size: 16px;
+    padding-top: 27px;
+    padding-left: 25px;
+}
+
+.gabriel{
+    padding: 25px;
+    font-size: 45px; 
+    line-height: 35px;
+    /* font-weight: 100px; */
+}
+p{
+    opacity: 0.7;
+    padding: 10px;
+    padding-left: 25px;
+    line-height: 25px;
+    font-size: larger;
+}
+button{
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #4D8D75;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    color: white;
+    background-color: #2f775d;
+}
+.button{
+    padding: 25px;
+    padding-left: 50px;
+    
+}
+.amount h1{
+    color: #4D8D75;
+    padding-left: 30px;
+    font-size: 45px;
+    font-weight: 10px;
+    padding-top: 10px;
+}
+s{
+    font-size: 16px;
+    color: black;
+    opacity: 0.7;
+    padding-left: 15px;
+}
